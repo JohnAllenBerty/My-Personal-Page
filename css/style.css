@@ -320,7 +320,7 @@ li > a:only-child:after { content: ''; }
 /*-- popup --*/
 
 .overlay {
-  position: relative;
+  position: absolute;
   top: 0px;
   bottom: 0;
   left: 0;
