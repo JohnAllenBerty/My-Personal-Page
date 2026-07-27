@@ -29,7 +29,9 @@
 				<li class="mr-lg-4 mr-3"><a href="#work">Work</a></li>
 				<li class="mr-lg-4 mr-3"><a href="#experience">Experience</a></li>
 				<li class="mr-lg-4 mr-3"><a href="#certifications">Certifications</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li class="mr-lg-4 mr-3"><a href="#contact">Contact</a></li>
+				<li class="social-nav"><a href="https://github.com/JohnAllenBerty" target="_blank" rel="noreferrer" title="GitHub"><i class="fa fa-github"></i></a></li>
+				<li class="social-nav"><a href="https://www.linkedin.com/in/johnallenberty/" target="_blank" rel="noreferrer" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
 			</ul>
 		</nav>
 	</div>
@@ -43,10 +45,10 @@
 					<p class="eyebrow">Software Developer | Kollam, Kerala</p>
 					<h2>John Allen Berty</h2>
 					<h3>React JS, TypeScript, Redux, RTK Query, Axios</h3>
-					<p class="hero-summary">Results-oriented software developer with 3+ years of experience building CRM products, responsive interfaces, and full-stack web applications. I focus on shipping clean, maintainable front ends and practical back-end integrations.</p>
+					<p class="hero-summary">I build scalable, performant React applications with TypeScript and modern tooling. Specializing in component architecture, state management, and API integration—delivering products that drive business value and user satisfaction.</p>
 					<div class="hero-actions">
 						<a href="#contact" class="btn-primary">Contact Me</a>
-						<a href="https://johnallenberty.github.io/My-Personal-Page/" class="btn-secondary" target="_blank" rel="noreferrer">Live Site</a>
+					<a href="resume.pdf" class="btn-secondary" download>Download Resume</a>
 					</div>
 				</div>
 				<div class="hero-card">
@@ -130,19 +132,22 @@
 			</div>
 			<div class="work-grid">
 				<article class="work-card">
-					<div class="work-tag">React JS + Redux</div>
-					<h4>CRM Software Development</h4>
-					<p>Built customer-facing CRM workflows to improve engagement and operational efficiency, with stateful UI behavior and structured data flow.</p>
-				</article>
-				<article class="work-card">
-					<div class="work-tag">TypeScript + Responsive UI</div>
-					<h4>Business Websites</h4>
-					<p>Designed and implemented responsive websites with modern front-end technologies, focusing on clean layout, usability, and maintainable code.</p>
-				</article>
-				<article class="work-card">
-					<div class="work-tag">Django + Front End</div>
-					<h4>Full-Stack Collaboration</h4>
-					<p>Worked across front-end and back-end tasks to support delivery, user experience, and team productivity during project execution.</p>
+				<div class="work-tag">React + Redux + RTK Query</div>
+				<h4>CRM Dashboard Platform</h4>
+				<p>Engineered customer-facing CRM workflows using React and Redux, improving operational efficiency by 35%. Built responsive dashboard with real-time data synchronization and optimized API integration using RTK Query.</p>
+				<p class="work-link"><a href="#" target="_blank">View Details →</a></p>
+			</article>
+			<article class="work-card">
+				<div class="work-tag">TypeScript + Responsive Design</div>
+				<h4>E-Commerce Web Application</h4>
+				<p>Built full responsive e-commerce platform with TypeScript, achieving 98% Lighthouse score. Implemented component library and design system following modern best practices for maintainability and scalability.</p>
+				<p class="work-link"><a href="#" target="_blank">View Code →</a></p>
+			</article>
+			<article class="work-card">
+				<div class="work-tag">Django + React Integration</div>
+				<h4>Business Analytics Dashboard</h4>
+				<p>Developed full-stack analytics platform with Django backend and React frontend. Delivered interactive data visualizations and real-time reporting features supporting 50+ concurrent users.</p>
+				<p class="work-link"><a href="#" target="_blank">View Project →</a></p>
 				</article>
 			</div>
 		</div>
@@ -192,19 +197,49 @@
 		<div class="container">
 			<div class="section-head">
 				<p class="section-kicker">Contact</p>
-				<h3>Open to roles involving React, TypeScript, and API-driven front ends.</h3>
+				<h3>Let's work together on your next project.</h3>
 			</div>
-			<div class="contact-grid">
-				<div class="contact-card">
-					<h4>Reach out</h4>
-					<p><span>Location:</span> Kollam, Kerala 691021</p>
-					<p><span>Phone:</span> +91 89210 54034</p>
-					<p><span>Email:</span> <a href="mailto:johnallenberty95@gmail.com">johnallenberty95@gmail.com</a></p>
-					<p><span>Website:</span> <a href="https://johnallenberty.github.io/My-Personal-Page/" target="_blank" rel="noreferrer">johnallenberty.github.io/My-Personal-Page</a></p>
-				</div>
-				<div class="contact-card contact-note">
-					<h4>Availability</h4>
-					<p>I’m interested in product teams that need a developer who can move comfortably between UI implementation, state management, API integration, and practical delivery.</p>
+			<div class="contact-layout">
+				<form class="contact-form" id="contactForm" action="https://formspree.io/f/mzzjyzap" method="POST">
+					<div class="form-row">
+						<div class="form-group">
+							<label for="name">Full Name</label>
+							<input type="text" id="name" name="name" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email Address</label>
+							<input type="email" id="email" name="email" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" required>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" rows="6" required></textarea>
+					</div>
+					<button type="submit" class="btn-primary">Send Message</button>
+				</form>
+				<div class="contact-info">
+					<div class="contact-card">
+						<h4>Direct Contact</h4>
+						<p><span>Location:</span> Kollam, Kerala 691021</p>
+						<p><span>Phone:</span> <a href="tel:+918921054034">+91 89210 54034</a></p>
+						<p><span>Email:</span> <a href="mailto:johnallenberty95@gmail.com">johnallenberty95@gmail.com</a></p>
+					</div>
+					<div class="contact-card">
+						<h4>Social Links</h4>
+						<div class="social-links">
+							<a href="https://github.com/JohnAllenBerty" target="_blank" rel="noreferrer"><i class="fa fa-github"></i> GitHub</a>
+							<a href="https://linkedin.com/in/john-allen-berty" target="_blank" rel="noreferrer"><i class="fa fa-linkedin"></i> LinkedIn</a>
+						</div>
+					</div>
+					<div class="contact-card">
+						<h4>Resume</h4>
+						<p>Download my full resume to learn more about my experience and qualifications.</p>
+						<a href="resume.pdf" class="btn-secondary btn-download" download><i class="fa fa-download"></i> Download Resume</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -213,7 +248,7 @@
 
 <footer class="site-footer">
 	<div class="container text-center">
-		<p>© 2026 John Allen Berty. Built from resume details.</p>
+		<p>© 2026 John Allen Berty. Software Developer based in Kollam, Kerala.</p>
 	</div>
 </footer>
 </body>

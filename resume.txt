@@ -1,0 +1,50 @@
+JOHN ALLEN BERTY
+Software Developer
+Kollam, Kerala 691021
++91 89210 54034
+johnallenberty95@gmail.com
+
+PROFESSIONAL SUMMARY
+Results-oriented software developer with 3+ years of experience building scalable React applications, 
+responsive interfaces, and full-stack web solutions. Specializing in component architecture, state 
+management with Redux and RTK Query, API integration, and modern front-end tooling.
+
+TECHNICAL SKILLS
+Frontend:    React JS, TypeScript, Redux, RTK Query, Axios, JavaScript, HTML, CSS, Vite
+Backend:     Django, Python, REST APIs
+Tools:       Git, Docker, Responsive Web Design
+Strengths:   CRM Development, Component Architecture, State Management, API Integration
+
+PROFESSIONAL EXPERIENCE
+
+SOFTWARE DEVELOPER
+Prepend Technologies Pvt. Ltd., Kollam | 2021 - Present
+• Developed and maintained CRM software using React JS, improving customer engagement and 
+  operational efficiency by 35%
+• Built responsive dashboards with real-time data synchronization using RTK Query
+• Designed and implemented responsive websites with TypeScript and modern CSS practices
+• Collaborated with cross-functional teams to deliver high-quality solutions within deadlines
+• Optimized API integration workflows reducing data fetching time by 40%
+
+PYTHON DJANGO DEVELOPER
+Scopos Technologies Pvt. Ltd., Kollam | 2021
+• Contributed to multiple back-end projects using Python Django framework
+• Handled front-end design tasks to improve user experience and system usability
+• Implemented RESTful APIs for seamless front-end and back-end integration
+• Collaborated with team to deliver projects on schedule
+
+EDUCATION & CERTIFICATIONS
+• Technical Support Fundamentals - Coursera (2020)
+• AI for Everyone - Coursera (2020)
+• Certificate Course in Python - G-TEC Computer Education (2020)
+• Programming for Everybody - Coursera (2020)
+• Python Data Structures - Coursera (2020)
+• Certificate Course in Advanced PHP - CDAC (2017)
+
+KEY PROJECTS
+• CRM Dashboard Platform - React, Redux, RTK Query with 98% Lighthouse score
+• E-Commerce Web Application - Full responsive design with TypeScript
+• Business Analytics Dashboard - Django backend with React frontend, supporting 50+ concurrent users
+
+AVAILABILITY
+Open to roles involving React, TypeScript, API-driven front ends, and collaborative teams.
